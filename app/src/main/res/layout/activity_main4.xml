@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/abc8"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.restaurant.Main2Activity"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:text="Appetizers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginTop="10dp"
+                android:textSize="28sp"
+                android:text="Veg. Spring Roll        ₹225"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Non Veg. Spring Roll₹250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginTop="10dp"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Chilli Panner              ₹275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginTop="10dp"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Honey Chilli Chicken₹315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView13"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Main Course Veg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView19"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            <TextView
+                android:text="Veg. Manchurian      ₹295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView20"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Veg. Choupsey         ₹255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView21"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Fried Rice                 ₹195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView22"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Hakka Noodles        ₹205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView23"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Main Course Non.Veg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView24"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            <TextView
+                android:text="Five Spice Chicken  ₹495"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView25"
+                android:textSize="28sp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="Chilli Garlic Rice       ₹205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView26"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Chicken Manchurian₹325"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView27"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Thai Chicken Curry   ₹505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView28"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Gravy Chilli Chicken  ₹515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView29"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Beverages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView14"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            <TextView
+                android:text="Bottled Water            ₹90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView15"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+
+            <TextView
+                android:text="Pepsi/Mirinda           ₹125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView16"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Fruit Beer                   ₹295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView17"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Juices                        ₹105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView18"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Desert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView30"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            <TextView
+                android:text="Ice-Cream                 ₹105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView31"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+
+            <TextView
+                android:text="Chocolate Mousse  ₹195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView32"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Darsan                      ₹295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView33"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+            <TextView
+                android:text="Death By Chocolate₹105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView34"
+                android:textSize="28sp"
+                android:textStyle="normal|bold"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bac3"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_marginStart="31dp"
+        android:id="@+id/editText3"
+        android:textColor="?android:attr/textColorAlertDialogListItem"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText4"
+        android:textColor="?android:attr/colorForeground"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText5"
+        android:textColor="?android:attr/textColorPrimaryNoDisable"
+        android:background="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <TextView
+        android:text="NEW USER! SIGN UP"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/textView5"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="28dp"
+        android:fontFamily="cursive"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="ENTER FIRST NAME"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView6"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <CheckBox
+        android:text="I AGREE TO TERMS AND CONDITIONS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:text="ENTER PASSWORD"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView12"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignParentEnd="true"
+        android:textColor="?android:attr/colorForeground"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignStart="@+id/editText5" />
+
+    <TextView
+        android:text="ENTER LAST NAME"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView7"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="ENTER E-MAIL ID"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView8"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignBaseline="@+id/editText5"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignEnd="@+id/checkBox"
+        android:layout_marginEnd="17dp">
+        <RadioButton
+            android:text="MALE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="33dp"
+            android:id="@+id/radioButton"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        <RadioButton
+            android:text="FEMALE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </RadioGroup>
+
+    <TextView
+        android:text="ENTER GENDER"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView9"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>

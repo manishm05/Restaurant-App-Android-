@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc7"
+    tools:context="com.project.restaurant.Main2Activity">
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Name"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="?android:attr/editTextColor"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Enter Your MAIL ID"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText2"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="+99-9999999999"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText3"
+        android:textSize="18sp"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="DATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:id="@+id/textView4"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:text="TIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_toEndOf="@+id/textView"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText4"
+        android:hint="ENTER DATE"
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="?android:attr/colorForeground"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_toStartOf="@+id/button" />
+
+    <TextView
+        android:text="PHONE NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/editText2"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginStart="21dp" />
+
+    <TextView
+        android:text="NAME"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText6"
+        android:hint="NUMBER OF PERSON"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignEnd="@+id/editText3"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:text="NUMBER OF PERSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ENTER TIME"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/editText4"
+        android:layout_alignEnd="@+id/textView5"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="MAIL ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:text="BOOK NOW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:inputType="time"
+        android:ems="10"
+        android:hint="ENTER TIME"
+        android:id="@+id/editText5"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_above="@+id/textView6"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignEnd="@+id/editText3" />
+</RelativeLayout>
